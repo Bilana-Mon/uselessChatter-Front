@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import HomePage from './pages/Home-page'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App bg-useless">
+    <div className="App bg-useless min-h-full">
       <Header/>
+      <HomePage/>
     </div>
   )
 }
